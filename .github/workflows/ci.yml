@@ -17,4 +17,4 @@ jobs:
             java-version: '24'
 
         - name: Build with Maven
-          uses: mvn clean install
+          run: mvn clean install
